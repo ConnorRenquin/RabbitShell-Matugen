@@ -13,12 +13,6 @@
                     "{{colors.tertiary.dark.hex}}"
                 ],
                 "background.appearance": "opaque",
-                "border": "{{colors.outline_variant.dark.hex}}",
-                "border.variant": "{{colors.outline.dark.hex}}",
-                "border.focused": "{{colors.primary.dark.hex}}",
-                "border.selected": "{{colors.primary.dark.hex}}",
-                "border.transparent": "{{colors.outline_variant.dark.hex}}40",
-                "border.disabled": "{{colors.outline_variant.dark.hex}}60",
                 "elevated_surface.background": "{{colors.surface_container_high.dark.hex}}",
                 "surface.background": "{{colors.surface.dark.hex}}",
                 "background": "{{colors.background.dark.hex}}",
