@@ -28,7 +28,7 @@ output_path = '~/.config/quickshell/Settings/.data/colors/matugen.json'
 
 [templates.obsidian]
 input_path = '~/.config/matugen/templates/obsidian.css'
-output_path = '~/Documents/Notes/Notes/.obsidian/themes/Matugen/theme.css'
+output_path = '~/Documents/Notes/.obsidian/themes/Matugen/theme.css'
 
 [templates.lazygit]
 input_path = '~/.config/matugen/templates/lazygit.yml'
