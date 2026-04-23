@@ -1,7 +1,7 @@
 {
-    "Background": "{{colors.surface.default.hex}}",
-    "Foreground": "{{colors.on_surface.default.hex}}",
-    "Success": "{{colors.primary.default.hex}}",
+    "Surface": "{{colors.surface.default.hex}}",
+    "Primary": "{{colors.primary.default.hex}}",
+    "OnSurface": "{{colors.on_surface.default.hex}}",
     "Error": "{{colors.error.default.hex}}",
-    "Warning": "{{colors.tertiary.default.hex}}"
+    "Tertiary": "{{colors.tertiary.default.hex}}"
 }
