@@ -4,58 +4,32 @@
 # Usage: lazygit --use-config-file="~/.config/lazygit/config.yml,<path-to-this-file>"
 
 gui:
-  nerdFontsVersion: 2
+  commitAuthorShortLength: 2
+  commitAuthorLongLength: 2
+  commitHashLength: 2
+  nerdFontsVersion: "3"
   showFileIcons: true
   theme:
-    # Active elements
     activeBorderColor:
       - '{{colors.primary.default.hex}}'
       - bold
-
-    # Inactive elements
     inactiveBorderColor:
       - '{{colors.outline_variant.default.hex}}'
-
-    # Options and menus
     optionsTextColor:
       - '{{colors.primary.default.hex}}'
-
-    # Selected line
     selectedLineBgColor:
       - '{{colors.surface_container_high.default.hex}}'
-
-    selectedRangeBgColor:
-      - '{{colors.surface_container_highest.default.hex}}'
-
-    # Cherry picked commits
     cherryPickedCommitBgColor:
       - '{{colors.tertiary_container.default.hex}}'
-
     cherryPickedCommitFgColor:
       - '{{colors.on_tertiary_container.default.hex}}'
-
-    # Markers for copied commits
     markedBaseCommitBgColor:
       - '{{colors.secondary_container.default.hex}}'
-
     markedBaseCommitFgColor:
       - '{{colors.on_secondary_container.default.hex}}'
-
-    # Changes
     unstagedChangesColor:
       - '{{colors.error.default.hex}}'
-
-    # Default colors
     defaultFgColor:
       - '{{colors.on_surface.default.hex}}'
-
-    # Search
     searchingActiveBorderColor:
       - '{{colors.tertiary.default.hex}}'
-
-    # Scrollbar
-    scrollbarThumbColor:
-      - '{{colors.primary.default.hex}}'
-
-    scrollbarTrackColor:
-      - '{{colors.surface_container_low.default.hex}}'
