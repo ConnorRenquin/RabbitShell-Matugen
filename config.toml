@@ -18,10 +18,6 @@ output_path = '~/.config/yazi/theme.toml'
 input_path = '~/.config/matugen/templates/zed-colors.json'
 output_path = '~/.config/zed/themes/matugen.json'
 
-[templates.hyprland]
-input_path = '~/.config/matugen/templates/hyprland-colors.conf'
-output_path = '~/.config/hypr/colors.conf'
-
 [templates.quickshell-colors]
 input_path = '~/.config/matugen/templates/quickshell-colors.json'
 output_path = '~/.config/quickshell/Settings/.data/colors/matugen.json'
